@@ -1,14 +1,11 @@
 # adsbexchange-stats
-ADSBexchange.com Statistics Beta
+ADSBexchange.com Statistics Beta Fork from [ADSB-Exchange](https://github.com/adsbxchange/adsbexchange-stats)
 
-This installer is meant only for an RPi running ADSBexchange.com script install.
+This installer is meant only for RPi running the [The ADS-B Receiver Project](https://github.com/jprochazka/adsb-receiver) image from [jprochazkat](https://github.com/jprochazka) with the inbuilt ADS-B Exchange feeder script.
 
-You must be running ADSBexchange feeder.
+The ADS-B Exchange feeder script from [The ADS-B Receiver Project](https://github.com/jprochazka/adsb-receiver) must have been installed before.
 
-Stats only.  Be sure to install ADSBexchange.com feeder package first.
-
-### STATS
-
+### Install adsbexchange-stats
 ```
 curl -o /tmp/stats.sh https://raw.githubusercontent.com/amnesica/adsbexchange-stats/master/stats.sh
 sudo bash /tmp/stats.sh
@@ -19,23 +16,18 @@ sudo bash /tmp/stats.sh
 adsbexchange-showurl
 ```
 
-
 ### Systemd Status
-
 ```
 sudo systemctl status adsbexchange-stats
 ```
 
 ### Restart
-
 ```
 sudo systemctl restart adsbexchange-stats
 ```
 
 ### Figure the URL out yourself
-
 Replace UUID with the adsbx stats generated uuid:
-
 https://www.adsbexchange.com/api/feeders/?feed=UUID
 
 --adsbx-git-discord
