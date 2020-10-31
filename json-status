@@ -17,7 +17,9 @@ DNS_IGNORE_LOCAL=0
 
 # List all paths, IN PREFERRED ORDER, separated by a SPACE
 # By default, only use the json from the feed client
-JSON_PATHS=("/run/adsbexchange-feed")
+# OLD JSON_PATHS=("/run/adsbexchange-feed")
+
+JSON_PATHS=("/run/dump1090-mutability")
 
 ######################################################################################################################
 # If you know what you're doing, and you want to override the search path, you can do it easily in
