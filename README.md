@@ -1,5 +1,5 @@
 # adsbexchange-stats
-ADSBexchange.com Statistics Beta Fork from [ADSB-Exchange](https://github.com/adsbxchange/adsbexchange-stats)
+ADSB-Exchange Statistics Beta Fork from [ADSB-Exchange](https://github.com/adsbxchange/adsbexchange-stats)
 
 This installer is meant only for RPi running the [The ADS-B Receiver Project](https://github.com/jprochazka/adsb-receiver) image from [jprochazkat](https://github.com/jprochazka) with the inbuilt ADS-B Exchange feeder script.
 
