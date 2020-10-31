@@ -7,17 +7,10 @@ You must be running ADSBexchange feeder.
 
 Stats only.  Be sure to install ADSBexchange.com feeder package first.
 
-### STEP 1: FEEDER PACKAGE
+### STATS
 
 ```
-curl -o /tmp/install.sh https://raw.githubusercontent.com/adsbxchange/adsb-exchange/master/install.sh
-sudo bash /tmp/install.sh
-```
-
-### STEP 2: STATS
-
-```
-curl -o /tmp/stats.sh https://raw.githubusercontent.com/adsbxchange/adsbexchange-stats/master/stats.sh
+curl -o /tmp/stats.sh https://raw.githubusercontent.com/amnesica/adsbexchange-stats/master/stats.sh
 sudo bash /tmp/stats.sh
 ```
 
